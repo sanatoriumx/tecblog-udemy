@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: white;
+}
+
+header{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+menu{
+    padding: 10px;
+}
+ h1{
+    padding: 15px;
+    font-size: 2.5em;
+ }
+.white{
+    color: white;
+}
+
+a{
+text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #FFF;
+    padding: 8px 12px;
+
+}
+
+a:hover{
+    color: #f7b600;
+    background-color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    display: block;
+
+}
+
+article{
+    display: inline;
+    width: 660px;
+    float: left;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: justify;
+
+
+}
+.postagem{
+    padding-bottom: 15px;
+}
+
+ h2{
+    color:#f7b600
+ }
+
+.date{
+    font-size: 0.9em;
+    padding-bottom: 8px;
+    display: block;
+}
+
+ img{
+    width: 620px;
+    padding: 10px;
+ }
+
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+
+}
+
+footer{
+    background-color: #CCC;
+    margin: 0 auto;
+    width: 920px;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+
+#leia-mais{
+    color: #f7b600;
+    padding: 15px;
+}
+
+h3{
+    background-color: #ccc;
+    padding: 10px;
+    margin: 5px;
+}
+
+.postagem-lateral{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+li{
+    color:#f7b600;
+    list-style-type: none;
+    margin: 10px 10px 10px 2px;
+    padding: 5px 0px;
+}
+
+#categoria{
+    color:#f7b600;
+    background-color: white;
+}
